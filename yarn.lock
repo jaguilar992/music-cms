@@ -984,6 +984,18 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     "to-fast-properties" "^2.0.0"
 
+"@bn-digital/strapi-plugin-field-uuid@^1.2.12":
+  "integrity" "sha512-SzDxL0YD5F5G2zLmYFcTQ5RT/MlTFgpgvs8IenbPX/u/3PFOI+9EcJ4XH4762PPo9b0EKXRKE+6/+1WNOsmucA=="
+  "resolved" "https://registry.npmjs.org/@bn-digital/strapi-plugin-field-uuid/-/strapi-plugin-field-uuid-1.2.12.tgz"
+  "version" "1.2.12"
+  dependencies:
+    "@strapi/design-system" "^1.6.6"
+    "@strapi/helper-plugin" "^4.9.1"
+    "@strapi/icons" "^1.6.6"
+    "prop-types" "^15.8.1"
+    "react-intl" "^6.4.0"
+    "uuid" "^9.0.0"
+
 "@casl/ability@^5.4.3", "@casl/ability@5.4.4":
   "integrity" "sha512-7+GOnMUq6q4fqtDDesymBXTS9LSDVezYhFiSJ8Rn3f0aQLeRm7qHn66KWbej4niCOvm0XzNj9jzpkK0yz6hUww=="
   "resolved" "https://registry.npmjs.org/@casl/ability/-/ability-5.4.4.tgz"
@@ -2275,7 +2287,7 @@
     "semver" "7.3.8"
     "umzug" "3.1.1"
 
-"@strapi/design-system@1.7.5":
+"@strapi/design-system@^1.6.6", "@strapi/design-system@1.7.5":
   "integrity" "sha512-kZgDuWa4q9dIochdA/LJNpWCXsQ4UOcjGAYBA68bEq3dyqBq29Hs59jMXc2HcsYPJV9I7y4rtcnTwNITdU5YSQ=="
   "resolved" "https://registry.npmjs.org/@strapi/design-system/-/design-system-1.7.5.tgz"
   "version" "1.7.5"
@@ -2322,7 +2334,7 @@
     "plop" "2.7.6"
     "pluralize" "8.0.0"
 
-"@strapi/helper-plugin@4.10.5":
+"@strapi/helper-plugin@^4.9.1", "@strapi/helper-plugin@4.10.5":
   "integrity" "sha512-9EAfBtCHHAs+/ebRQje5voASW4gmOeaaQlx+pEMY8EXecPp2VH76nG2E3VGzkErT+acqa5TfKAMLGGMAnPS/gg=="
   "resolved" "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.10.5.tgz"
   "version" "4.10.5"
@@ -2338,7 +2350,7 @@
     "react-intl" "6.4.1"
     "react-select" "5.7.0"
 
-"@strapi/icons@^1.5.0", "@strapi/icons@1.7.5":
+"@strapi/icons@^1.5.0", "@strapi/icons@^1.6.6", "@strapi/icons@1.7.5":
   "integrity" "sha512-wpR9OcT2YM6l1/hgBsjovXxr8vxRgZcRHdOMKEy7IAPIKO7BImlKsjW3KE/5I2G8shCXeixPPjdU+fWL4F694w=="
   "resolved" "https://registry.npmjs.org/@strapi/icons/-/icons-1.7.5.tgz"
   "version" "1.7.5"
@@ -2508,7 +2520,7 @@
     "@strapi/utils" "4.10.5"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.9.0", "@strapi/strapi@4.10.5":
+"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.4.0", "@strapi/strapi@^4.9.0", "@strapi/strapi@4.10.5":
   "integrity" "sha512-g/HCM8I/K6srpHaTQvNOlDzmc+sF/c/uZyM1TTDYBCt8bACRcPPtZM7gM0f2xyJZWQRaFp14yQKU+VpBiBwT1w=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.10.5.tgz"
   "version" "4.10.5"
@@ -8449,7 +8461,7 @@
     "react-fast-compare" "^3.1.1"
     "react-side-effect" "^2.1.0"
 
-"react-intl@6.4.1":
+"react-intl@^6.4.0", "react-intl@6.4.1":
   "integrity" "sha512-/aT5595AEMZ+Pjmt8W2R5/ZkYJmyyd6jTzHzqhJ1LnfeG36+N5huBtykxYhHqLc1BrIRQ1fTX1orYC0Ej5ojtg=="
   "resolved" "https://registry.npmjs.org/react-intl/-/react-intl-6.4.1.tgz"
   "version" "6.4.1"
@@ -10137,6 +10149,11 @@
   "integrity" "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   "version" "8.3.2"
+
+"uuid@^9.0.0":
+  "integrity" "sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg=="
+  "resolved" "https://registry.npmjs.org/uuid/-/uuid-9.0.0.tgz"
+  "version" "9.0.0"
 
 "v8flags@^2.0.10":
   "integrity" "sha512-SKfhk/LlaXzvtowJabLZwD4K6SGRYeoxA7KJeISlUMAB/NT4CBkZjMq3WceX2Ckm4llwqYVo8TICgsDYCBU2tA=="

@@ -31,8 +31,8 @@
       "target": "api::song.song"
     },
     "playlist_uuid": {
-      "type": "string",
-      "required": false
+      "type": "uid",
+      "required": true
     }
   }
 }
