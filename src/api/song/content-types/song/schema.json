@@ -27,6 +27,10 @@
     "alabanza": {
       "type": "boolean",
       "default": true
+    },
+    "song_uuid": {
+      "type": "string",
+      "required": false
     }
   }
 }

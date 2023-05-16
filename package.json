@@ -14,7 +14,8 @@
     "@strapi/plugin-i18n": "4.10.5",
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/strapi": "4.10.5",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "strapi-plugin-duplicate-button": "^1.1.7"
   },
   "author": {
     "name": "A Strapi developer"
