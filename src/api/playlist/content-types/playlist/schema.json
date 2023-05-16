@@ -29,6 +29,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::song.song"
+    },
+    "notify": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
