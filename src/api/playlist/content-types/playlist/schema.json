@@ -29,10 +29,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::song.song"
-    },
-    "playlist_uuid": {
-      "type": "uid",
-      "required": true
     }
   }
 }
